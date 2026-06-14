@@ -24,6 +24,8 @@ const UI: Dict = {
   speed: { it: 'Velocità', en: 'Speed' },
 
   phase: { it: 'Fase', en: 'Phase' },
+  showDetails: { it: 'Dettagli', en: 'Details' },
+  hideDetails: { it: 'Riduci', en: 'Collapse' },
   whatHappens: { it: 'Cosa succede', en: 'What happens' },
   keyEvents: { it: 'Eventi chiave', en: 'Key events' },
   importance: { it: 'Importanza biologica', en: 'Biological importance' },
