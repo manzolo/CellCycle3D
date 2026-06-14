@@ -17,6 +17,7 @@ build: ## Build the production image
 
 up: ## Start the app in detached mode (http://localhost:8080)
 	$(COMPOSE) up -d app
+	@echo "App available at http://localhost:$${APP_PORT:-8080}"
 
 down: ## Stop and remove containers
 	$(COMPOSE) down
